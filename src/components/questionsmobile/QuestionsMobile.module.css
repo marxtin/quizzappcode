@@ -1,0 +1,117 @@
+.app_main {
+    
+    width: 90vw;
+    height: 85vh;
+    max-width: 700px;
+    background: linear-gradient(to bottom,  sandybrown, cyan);
+    font-family: "NotoSans";
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    
+    margin-top: 90px;
+    z-index: 4;
+}
+
+
+.btn {
+    border: 2px solid grey;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+.question_section {
+    height: 30vh;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.buttons_container {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 300px;
+    place-self:center;
+    justify-content: flex-start;
+}
+.question_header {
+    font-size: 1.5rem;
+}
+
+
+
+.question_text {
+    height: 50%;
+    font-size: 1.25rem;
+}
+
+
+.question_help{
+    width: 100px;
+    height: 40px;
+  
+}
+
+.next_btn {
+    margin-left: 5px;
+}
+
+.question_outcome{
+    padding-top: 15px;
+padding-bottom: 5px ;
+height: 60px;
+text-align: end;
+}
+
+
+
+.answer_section {
+    height: 25vh;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.answer_btn {
+    width: 300px;
+    height: 50px;
+    font-size: 1rem;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.75)
+} 
+
+.btn:active {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.btn_green {
+    width: 300px;
+    height: 50px;
+    font-size: 1rem;
+    border: 2px solid grey;
+    color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 255, 128, 0.75);
+}
+
+.btn_red {
+    width: 300px;
+    height: 50px;
+    font-size: 1rem;
+    border: 2px solid grey;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 0, 64, 0.75);
+}
+
+.mobile_solution_text {
+    font-size: 0.9rem;
+    padding: 12px;
+    text-align: justify;
+}

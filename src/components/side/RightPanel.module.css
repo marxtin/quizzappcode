@@ -1,0 +1,83 @@
+.side_panel {
+
+    font-family: "Jost";
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    background-color: rgba(255, 255, 255, 0.25);
+
+    width: 500px;
+    height: 760px;
+    position: fixed;
+    top: 15%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    background: linear-gradient(to top, sandybrown, cyan);
+    cursor: move;
+}
+
+
+
+.score_text {
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 50px;
+}
+
+.close_score {
+
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    height: 40px;
+}
+
+.score_display {
+    padding: 2rem;
+    font-size: 2rem;
+    height: 50px;
+    place-self: center;
+}
+
+.again_button {
+    border: 2px solid grey;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    place-self: center;
+    margin: 20px;
+}
+
+.score_share_container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    place-self: center;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.score_share {
+
+    height: 2rem;
+    width: 2rem;
+}
+
+.quote_text {
+    height: 100px;
+    padding: 10px;
+    font-size: 1.25rem;
+    text-align: justify;
+
+}
+
+.bottom_image {
+    width: 500px;
+    height: 200px;
+
+}

@@ -1,0 +1,23 @@
+.info_panel {
+    width: 700px;
+    height: 140px;
+    background-color: rgba(255, 255, 255, 0.55);
+    font-family: "Jost";
+
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    max-width: 700px;
+
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.info_text {
+    padding: 1vh;
+    text-align: justify;
+    font-size: 1.25rem;
+}

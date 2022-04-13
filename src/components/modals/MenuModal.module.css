@@ -1,0 +1,72 @@
+.container_menu {
+    width: 350px;
+    height: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid grey;
+    z-index: 1000;
+    background: linear-gradient(217deg, sandybrown, rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, cyan, rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, forestgreen, white 70.71%);
+    filter: drop-shadow(7px 7px 3px grey)
+}
+
+.menu_header {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close_icon {
+    width: 50px;
+    height: 50px;
+
+}
+
+.menu_main {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.menu_list {
+    width: 350px;
+    height: 300px;
+    padding: 0;
+    margin-left: 5px;
+    list-style: none;
+    font-family: "BioRhymeExpanded";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.menu_list li {
+    transform: scaleY(2.25);
+    text-align: center;
+    color: darkslategray;
+}
+
+.thumb{
+    width: 80px;
+    height: 35px;
+    pointer-events: none;
+   
+}
+
+.link {
+    color: darkmagenta;
+    text-decoration: none;
+    filter: drop-shadow(7px 7px 3px grey);
+
+}
+
+.menu_list>li:nth-child(4) {
+   font-size: 0.7rem;
+}

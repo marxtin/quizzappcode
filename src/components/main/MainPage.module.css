@@ -1,0 +1,51 @@
+.container {
+    
+    width: 100vw;
+    min-height:1000px;
+    height:100vh;
+    max-height: 200vh;
+    position: relative;
+    background: linear-gradient(to bottom,  sandybrown, cyan);
+    overflow-x: hidden;
+}
+
+._center {
+   
+   
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container_mobile {
+ 
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(to bottom,  sandybrown, cyan);
+}
+
+.bgpic {
+    position: fixed;
+    bottom: 0;
+    z-index:1;
+}
+
+._center_mobile {
+   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+   
+}

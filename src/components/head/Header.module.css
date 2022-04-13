@@ -1,0 +1,82 @@
+.header_container {
+    width: 100vw;
+    position:fixed;
+    top:0;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+   
+}
+.logo {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.headline {
+    font-family: "BioRhymeExpanded";
+    transform: scaleY(1.75);
+    filter: drop-shadow(7px 7px 3px grey);
+}
+.earth {
+  color: #228b22;
+  -webkit-text-stroke: 1px navy;
+
+  
+}
+.earthgif {
+    width: 3rem;
+    height: 1.75rem;
+}
+.quizz {
+  color: #87ceeb;
+  -webkit-text-stroke: 1px #228b22;
+}
+.subheadline {
+    font-family: "Jost";
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    
+}
+
+.header_contacts {
+    margin-right: 20px;
+    font-family: "BioRhymeExpanded";
+    font-size: 1.25rem;
+    align-self: flex-end;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.header_contacts>li {
+    transform: scaleY(1.75);
+    filter: drop-shadow(7px 7px 3px grey);
+    font-weight: bold;
+    -webkit-text-stroke: 1px navy;
+    color: forestgreen;
+}
+
+.header_contacts a{
+    text-decoration: none;
+    -webkit-text-stroke: 1px navy;
+    color: forestgreen;
+}
+
+.header_contacts>li:hover {
+   
+   color: white;
+   cursor: pointer;
+   
+}
+
+.header_contacts a:hover{
+    color: white;
+}
+

@@ -1,0 +1,9 @@
+.menu {
+    height: 70px;
+    width: 70px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(7px 7px 3px grey)
+}

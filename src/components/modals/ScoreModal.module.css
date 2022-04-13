@@ -1,0 +1,91 @@
+.modal_container {
+    background-image: url(../../images/bgforest.png);
+
+    font-family: "Jost";
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+
+
+    width: 330px;
+
+    height: 590px;
+    position: fixed;
+    margin-top: 90px;
+
+
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    z-index: 10;
+
+}
+
+.modal_header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.close_icon {
+    width: 50px;
+    height: 50px;
+
+}
+
+.score_text {
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+
+    filter: drop-shadow(1px 1px 2px red) drop-shadow(-1px -1px 2px red) drop-shadow(-1px 1px 2px red) drop-shadow(1px -1px 2px red);
+
+}
+
+.score_display {
+    padding: 2rem;
+    font-size: 2rem;
+    place-self: center;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 2px red) drop-shadow(-1px -1px 2px red) drop-shadow(-1px 1px 2px red) drop-shadow(1px -1px 2px red);
+
+}
+
+.score_share_container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    place-self: center;
+    justify-content: space-around;
+}
+
+.score_share {
+
+    height: 2rem;
+    width: 2rem;
+}
+
+.quote_text {
+    padding: 10px;
+    font-size: 1.25rem;
+    text-align: justify;
+    font-weight: bold;
+    background: #00000064;
+
+}
+
+.again_button {
+    border: 2px solid forestgreen;
+    background-color: rgba(0, 255, 64, 0.5);
+    color: aquamarine;
+    font-family: "NotoSans";
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    place-self: center;
+    margin: 20px;
+}

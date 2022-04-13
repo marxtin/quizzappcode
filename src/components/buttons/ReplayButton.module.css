@@ -1,0 +1,12 @@
+.again_button {
+    border: 2px solid forestgreen;
+    background-color: rgba(0, 255, 64, 0.5);
+    color: black;
+    font-family: "NotoSans";
+    width: 100px;
+    height: 40px;
+    margin-left: 5px;
+    font-size: 0.75rem;
+    
+    z-index: 5;
+}
