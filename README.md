@@ -1,4 +1,4 @@
-# https.//marxtin.github.io/earth-o-quizz
+#[Earth-O-Quizz](https://marxtin.github.io/earth-o-quizz)
 
 ## A quiz app to test your knowledge of planet earth! 
 
